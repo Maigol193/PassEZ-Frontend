@@ -1,4 +1,5 @@
 /* Estilo para los botones */
+
 .custom-button {
     width: 300px; 
     height: 60px; 
@@ -6,12 +7,13 @@
     background-color: #343a40; 
     border-radius: 10px; 
     transition: background-color 0.3s; 
+    
 }
 
 #qrCodeImage {
     max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
     height: auto; /* Mantiene la relación de aspecto */
-    margin: auto; /* Centrar imagen */
+    margin:0 auto; 
 }
 
 #numericCodeDisplay {
@@ -25,12 +27,9 @@
 
 .d-flex {
     justify-content: center; 
-    margin-top: 200px; 
+    margin-top: 150px; 
 }
 
-.me-3 {
-    margin-right: 20px; 
-}
 
 .modal-header {
     background-color: #737578; 
